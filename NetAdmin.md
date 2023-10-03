@@ -110,3 +110,5 @@ Pour surveiller le réseau à l'aide de SELKS et NTOP, voici les étapes génér
 **4. :** Utilisez Kibana pour créer des tableaux de bord personnalisés et des rapports basés sur les données de journalisation de Suricata stockées dans Elasticsearch.
 
 Cela vous permettra d'avoir une surveillance réseau complète avec un accent particulier sur la sécurité grâce à SELKS et une analyse approfondie du trafic avec NTOP.
+
+### Aperçu
