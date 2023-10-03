@@ -68,3 +68,41 @@ Envisagez la redondance au niveau des équipements critiques tels que les pare-f
 
 Pour les commerciaux itinérants, implémentez une solution VPN sécurisée avec authentification forte, telle que l'authentification à deux facteurs (2FA) pour garantir une connexion sécurisée depuis des emplacements distants.
 Cette structure de réseau hiérarchique avec une segmentation appropriée, des pare-feux, des VPN sécurisés, une surveillance proactive et une priorisation de la qualité de service contribuera à répondre aux exigences élevées en matière de sécurité et de connectivité de SecureTech Industries. Assurez-vous également de documenter soigneusement la conception du réseau, comme indiqué dans les livrables attendus.
+
+# Rapport de Monitoring et de Performance
+
+NTOP (Network Top) est un outil de surveillance réseau open source qui offre des fonctionnalités avancées pour l'analyse du trafic réseau. Il permet de collecter des informations sur le trafic réseau en temps réel et de les présenter sous forme de tableaux de bord, de graphiques et de rapports détaillés. NTOP est principalement utilisé pour surveiller et analyser le trafic réseau, la qualité de service (QoS), la sécurité du réseau et les performances du réseau.
+
+Voici quelques-unes des fonctionnalités clés de NTOP :
+
+**1. Analyse du trafic en temps réel :** NTOP permet de visualiser le trafic réseau en temps réel, y compris les débits, les protocoles utilisés, les adresses IP sources et de destination, etc.
+
+**2. Rapports détaillés :** Il génère des rapports détaillés sur l'utilisation de la bande passante, les statistiques de protocole, les flux de données, les adresses IP les plus actives, etc.
+
+**3. Analyse de la qualité de service (QoS) :** NTOP peut surveiller les performances du réseau, y compris la latence, la gigue et la perte de paquets, ce qui est essentiel pour garantir une bonne expérience utilisateur.
+
+**4. Détection d'anomalies :** Il peut identifier les anomalies dans le trafic réseau, ce qui est utile pour la détection d'intrusions et la sécurité du réseau.
+
+**5. Intégration avec d'autres outils :** NTOP peut être intégré avec d'autres outils de surveillance réseau, tels que Wireshark, pour une analyse plus approfondie du trafic.
+
+Quant à SELKS (Suricata Elastic Logstash Kibana Scirius), il s'agit d'une distribution Linux basée sur Debian spécialement conçue pour la surveillance de la sécurité réseau. SELKS intègre plusieurs outils open source, notamment :
+
+**1. Suricata :** Un moteur de détection d'intrusion réseau (IDS/IPS) qui analyse le trafic réseau en temps réel pour détecter les menaces.
+
+**2. Elasticsearch :** Une base de données de recherche et d'analyse distribuée qui stocke les données de journalisation générées par Suricata.
+
+**3. Logstash :** Un outil de collecte, de transformation et d'expédition de journaux qui agrège les données de Suricata et les prépare pour l'indexation dans Elasticsearch.
+
+**4. Kibana :** Une interface de visualisation des données qui permet de créer des tableaux de bord interactifs et de générer des rapports à partir des données de journalisation stockées dans Elasticsearch.
+
+**5. Scirius :** Une interface web qui facilite la gestion et la configuration de Suricata.
+
+En combinant ces outils, SELKS offre une solution complète de surveillance de la sécurité réseau. Il permet de détecter les activités malveillantes, d'analyser les journaux de sécurité et de visualiser les données de manière conviviale à l'aide de Kibana.
+
+Pour surveiller le réseau à l'aide de SELKS et NTOP, voici les étapes générales que vous pouvez suivre :
+
+**1.** Installez SELKS sur une machine dédiée.
+**2.** Configurez Suricata pour surveiller le trafic réseau et générer des journaux de sécurité.
+**3.** Utilisez NTOP pour surveiller et analyser le trafic réseau en temps réel.
+**4.** Utilisez Kibana pour créer des tableaux de bord personnalisés et des rapports basés sur les données de journalisation de Suricata stockées dans Elasticsearch.
+Cela vous permettra d'avoir une surveillance réseau complète avec un accent particulier sur la sécurité grâce à SELKS et une analyse approfondie du trafic avec NTOP.
