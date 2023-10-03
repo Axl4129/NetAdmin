@@ -101,12 +101,12 @@ En combinant ces outils, SELKS offre une solution complète de surveillance de l
 
 Pour surveiller le réseau à l'aide de SELKS et NTOP, voici les étapes générales que vous pouvez suivre :
 
-**1.** Installez SELKS sur une machine dédiée.
+**1. :** Installez SELKS sur une machine dédiée.
 
-**2.** Configurez Suricata pour surveiller le trafic réseau et générer des journaux de sécurité.
+**2. :** Configurez Suricata pour surveiller le trafic réseau et générer des journaux de sécurité.
 
-**3.** Utilisez NTOP pour surveiller et analyser le trafic réseau en temps réel.
+**3. :** Utilisez NTOP pour surveiller et analyser le trafic réseau en temps réel.
 
-**4.** Utilisez Kibana pour créer des tableaux de bord personnalisés et des rapports basés sur les données de journalisation de Suricata stockées dans Elasticsearch.
+**4. :** Utilisez Kibana pour créer des tableaux de bord personnalisés et des rapports basés sur les données de journalisation de Suricata stockées dans Elasticsearch.
 
 Cela vous permettra d'avoir une surveillance réseau complète avec un accent particulier sur la sécurité grâce à SELKS et une analyse approfondie du trafic avec NTOP.
